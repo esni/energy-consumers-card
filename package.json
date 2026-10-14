@@ -1,0 +1,11 @@
+{
+  "name": "energy-consumers-card",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Home Assistant Lovelace card that ranks instantaneous power consumption for devices configured in the Energy dashboard.",
+  "scripts": {
+    "build": "cp src/energy-consumers-card.js dist/energy-consumers-card.js",
+    "check": "node --check dist/energy-consumers-card.js"
+  },
+  "license": "MIT"
+}
